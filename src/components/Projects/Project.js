@@ -16,7 +16,7 @@ import {
   Img,
 } from './ProjectsStyles';
 
-const Project = ({ id, image, title, description, tags, visit, source }) => {
+const Project = ({ id, image, title, description, tags, demo, github }) => {
   const [readMore, setReadMore] = useState(false);
 
   return (
@@ -41,8 +41,12 @@ const Project = ({ id, image, title, description, tags, visit, source }) => {
         </TagList>
       </StyledDiv>
       <UtilityList>
-        <ExternalLinks href={visit}>Code</ExternalLinks>
-        <ExternalLinks href={source}>Source</ExternalLinks>
+        <ExternalLinks target="_blank" href={demo}>
+          Demo
+        </ExternalLinks>
+        <ExternalLinks target="_blank" href={github}>
+          Github
+        </ExternalLinks>
       </UtilityList>
     </BlogCard>
   );
