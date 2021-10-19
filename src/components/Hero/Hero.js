@@ -19,9 +19,9 @@ const Hero = () => (
       <SectionText>
         I love writing clean code and making beautiful websites
       </SectionText>
-      <Button onClick={() => (window.location = 'https://google.com')}>
+      {/* <Button onClick={() => (window.location = 'https://google.com')}>
         Learn More
-      </Button>
+      </Button> */}
     </LeftSection>
   </SectionHero>
 );
