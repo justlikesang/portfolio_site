@@ -38,7 +38,7 @@ export const timeLineData = [
   },
   {
     year: 2020,
-    text: 'Started my passion to pursue software engineering and enter Rithm School based in San Francisco.',
+    text: 'Started my passion to pursue software engineering and entered Rithm School based in San Francisco.',
   },
   {
     year: 2021,
