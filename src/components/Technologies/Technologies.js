@@ -39,7 +39,10 @@ const Technologies = () => (
     <SectionTitle>Technologies</SectionTitle>
     <br />
     <SectionDivider divider />
-    <SectionText>These are some of the languages and technologies that I love to use. My main focus being React</SectionText>
+    <SectionText>
+      These are some of the languages and technologies that I love to use. I am
+      confident in my frontend knowledge and technologies, especially React!
+    </SectionText>
     <IconContainer>
       <Icon>
         <DiJsBadge size="3em" />
